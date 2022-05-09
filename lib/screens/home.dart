@@ -30,25 +30,25 @@ class _HomeState extends State<Home> {
         onTap: (value) => setState(() => activeNavigationIndex = value),
         items: [
           BottomNavigationBarItem(
-            backgroundColor: Colors.blue.shade100,
+            backgroundColor: Colors.red.shade100,
             icon: Icon(BottomNavigation.bottomNavIcon[0]),
             label: BottomNavigation.bottomNavText[0]
           ),
 
           BottomNavigationBarItem(
-            backgroundColor: Colors.blue.shade100,
+            backgroundColor: Colors.orange.shade100,
             icon: Icon(BottomNavigation.bottomNavIcon[1]),
             label: BottomNavigation.bottomNavText[1]
           ),
 
           BottomNavigationBarItem(
-            backgroundColor: Colors.blue.shade100,
+            backgroundColor: Colors.yellow.shade100,
             icon: Icon(BottomNavigation.bottomNavIcon[2]),
             label: BottomNavigation.bottomNavText[2]
           ),
 
           BottomNavigationBarItem(
-            backgroundColor: Colors.blue.shade100,
+            backgroundColor: Colors.green.shade100,
             icon: Icon(BottomNavigation.bottomNavIcon[3]),
             label: BottomNavigation.bottomNavText[3]
           ),
